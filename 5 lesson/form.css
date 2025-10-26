@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kelly+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kelly Slab;
+}
+
+body {
+    font-size: 0;
+    overflow: hidden;
+}
+
+form {
+    background-color: #C5DAF9;
+    display: inline-block;
+    width: 73%;
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.form {
+    font-size: 16px;
+    display: block;
+    margin: 10% auto;
+    width: 60%;
+    height: 60vh;
+}
+
+.form h1 {
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.form p {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.form input {
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.forminput input {
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 150px;
+    padding: 5;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 30%;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.img {
+    display: inline-block;
+    width: 27%;
+    height: 100vh;
+    margin: 0;
+    vertical-align: top;
+}
+
+
+.img img {
+    height: 100vh;
+}
