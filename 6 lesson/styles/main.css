@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Harry Potter";
+    src: url(../fonts/Harry\ Potter.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/bg.png);
+    background-size: cover;
+    height: 5vh;
+}
+.navigation{
+    margin-top: 550px;
+}
+.navigation a{
+    padding: 9%;
+    margin-top: 700px;
+    font-family: "Harry Potter";
+    font-size: 48px
+}

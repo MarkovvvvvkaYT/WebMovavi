@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Harry Potter";
+    src: url(../fonts/Harry\ Potter.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/bg_games.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 5%;
+    font-family: "Harry Potter";
+}
+.navigation{
+    margin-top: 550px;
+}
+.navigation a{
+    padding: 9%;
+    margin-top: 700px;
+    font-family: "Harry Potter";
+    font-size: 48px;
+}
+.main{
+    background-color: #000a;
+    height: 100%;
+    border-radius: 32px;
+    color:aliceblue;
+    text-align: center;
+    
+}
+.main h1{
+    text-align: center;
+}
+.main div img{
+    width: 322px;
+}
+.main div{
+    display: inline-block;
+    width: 372px;
+    padding: 0 40px 0;
+    overflow: hidden;
+}
+.main div div{ 
+    text-align: left;
+}
+h2 a{
+    font-family: "Harry Potter";
+    font-size: 28px;
+    text-decoration: none;
+    color:aliceblue;
+    text-align: right;
+}
+h2{
+    text-align: right;
+}
