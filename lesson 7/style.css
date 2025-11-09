@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(images/background.png);
+    font-family: "Pacifico", cursive;
+    overflow-x: hidden;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+h1:hover{
+    color: rgba(157, 255, 0, 0);
+    transition: 1s ease-in-out;
+    filter:blur(15px);
+}
+.image, .text{
+    display: inline-block;
+}
+.image{
+    width: 33%;
+}
+.text{
+    width: 66%;
+    vertical-align: top;
+    line-height: 380%;
+}
+.img1, .img2, .img3, .img4{
+    display: inline-block;
+    width: 24%;
+}
+.image img { 
+    height: 100%;
+    width: 100%;
+}
+.penguins img:hover {
+    transform: rotate3d(1, 2, -1, 192deg);
+}
+.img1:active{
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+
+.img2:active{
+    transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.img3:active{
+    transform: rotateX(360deg);
+    transition: 1s ease-in-out;
+}
+.img4:active{
+    transform: rotateZ(360deg);
+    transition: 1s ease-in-out;
+}
+.image img:active{
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
