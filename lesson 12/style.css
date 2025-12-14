@@ -1,0 +1,88 @@
+@font-face {
+    font-family: KyivSans;
+    src: url(KyivTypeSans-VarGX.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block{
+    height: 100vh;
+    background-color: #060f35;
+}
+.main {
+    background: url(img/background.svg);
+}
+
+h1{
+    height: 42vh;
+    font-size: 96px;
+    font-family: KyivSans, "Times New Roman", Times;
+    background-color: rgba(156, 152, 152, 0.4);
+    border-radius: 30px;
+    width: fit-content;
+    padding: 2%;
+    color: #fff;
+    font-weight: 100;
+
+}
+nav{
+    width: 18vw;
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}
+nav a{
+    display: block;
+    padding: 8vh 0;
+    color: white;
+}
+
+.block > h2{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding: 0.5%;
+    font-family: KyivSans;
+    font-weight: 100;
+}
+.eclipse > div{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 80%;
+    white-space: nowrap;
+    img{
+        display: inline-block;
+        height: 100%;
+        vertical-align: top;
+        &:hover{
+            height: 120%;
+        }
+    }
+}
+.image_wrapper{
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2%;
+    img {
+        width: 100%;
+    }
+}
+.text_wrapper{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 150%;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+
+}
+.block{
+    text-align: center;
+}
