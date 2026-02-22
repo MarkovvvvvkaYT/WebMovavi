@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Just Me Again Down Here", cursive;
+}
+h1{
+    margin-left: 30px;
+    font-size: 110px;
+
+}
+header{
+    width: 30vw;
+    margin-top: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+main{
+    width: 40vw;
+    display: inline-block;
+}
+.playlist{
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 20vw;
+    display: inline-block;
+}
+.player{
+    display: inline-block;
+}
+.vinyl{
+    margin-top: 10px;
+}
+p{
+    font-size: 30px;
+}
+.vinyl img{
+    width: 100%;
+}
+.track img{
+    size: 70%;
+}
+.card, .player, .name{
+    margin-bottom: 15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+button{
+    background-color: rgba(29, 29, 29, 0.455);
+    border-width: 0.5px;
+    border-radius: 90px;
+}
+.control{
+    text-align: center;
+    padding: 5%;
+}
