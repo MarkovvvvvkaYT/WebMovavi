@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    zoom: 80%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1a1a2e;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #CD46C4;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+hr {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    padding-left: 50px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    color: #00F5FF;
+    margin-bottom: 20px;
+}
+
+.paul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80vh;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.paul h2, .paul-name, h2 {
+    font-size: 100px;
+    color: #00F5FF;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.paul summary, .jummy summary, .piano summary,
+.freddy summary, .drums summary, .jon summary {
+    font-size: 24px;
+    font-weight: bold;
+    background-image: url(img/button_bg.png);
+    background-size: cover;
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    padding: 50px 70px;
+    transition: all 0.3s ease;
+    border: none;
+    
+}
+
+.details-content,
+.details-content2,
+.details-content3,
+.details-content4,
+.details-content5,
+.details-content6 {
+    position: absolute;
+    width: 600px;
+    left: 0;
+    top: 120%;
+    padding: 20px;
+    border-radius: 10px;
+
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(4px);
+}
+
+.details-content p, .details-content2 p,
+.details-content3 p, .details-content4 p,
+.details-content5 p, .details-content6 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.jummy {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 80vh;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.jummy h2 {
+    font-size: 60px;
+    color: #00F5FF;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.piano {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 67vh;
+    width: 100%;
+    padding-left: 100px;
+    margin: 100px;
+}
+
+.piano h2 {
+    font-size: 60px;
+    color: #00F5FF;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.video h2 {
+    font-size: 48px;
+    color: #00F5FF;
+    margin-bottom: 30px;
+}
+
+.video_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.button button {
+    background-color: #CD46C4;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    gap: 40px;
+}
+
+.partners h2 {
+    font-size: 48px;
+    color: #00F5FF;
+}
+
+.info1 img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    padding: 20px 50px;
+}
+
+footer .left h2 {
+    font-size: 24px;
+    color: #00F5FF;
+    margin-bottom: 10px;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .right img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .paul, .jummy, .video_info {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .banner {
+        padding-left: 20px;
+    }
+}
+video{
+    width:400px;
+    height:250px;
+}
+.details-content,.details-content2,.details-content3,.details-content4,.details-content5,.details-content6{
+    position:absolute;
+}
